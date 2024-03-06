@@ -1,0 +1,34 @@
+# arguments for dataset
+dataset: coco
+nclass: 81
+crop_size: 513
+data_root: ./coco
+
+# arguments for training
+epochs: 10
+batch_size: 8 # per GPU x 4 GPUs
+lr: 0.001
+lr_multi: 10.0
+criterion:
+  name: CELoss
+  kwargs:
+    ignore_index: 255
+
+
+# arguments for model
+model:
+  backbone:
+    type: model.backbone.mit.mit_b5
+    kwargs:
+      embed_dims: [64, 128, 320, 512]
+      pretrained: True
+  decoder:
+    type: model.semseg.semidec_base.SemiDecoder
+    kwargs:
+      num_layers: 1
+      num_heads: 2
+      num_class: 81
+      in_planes: [64, 128, 320, 512]
+      image_size: 513
+      embedding_dim: 768
+
