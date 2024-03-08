@@ -37,8 +37,9 @@ The more critical issue lies in the existing semi-supervised segmentation framew
 Thus, we propose to _intervene and diversify_ the labeled data flow with unlabeled data in the feature domain, leading to improvements in generalizability.
 
 
+## 🛠️ Usage
 
-## 1. Environment
+### 1. Environment
 
 First, clone this repo:
 
@@ -61,23 +62,23 @@ pip install einops
 pip install timm
 ```
 
-## 2. Data Preparation & Pre-trained Weights
+### 2. Data Preparation & Pre-trained Weights
 
-### 2.1 Pascal VOC 2012 Dataset
+#### 2.1 Pascal VOC 2012 Dataset
 Download the dataset with wget:
 ```shell
 wget https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_hk/EcgD_nffqThPvSVXQz6-8T0B3K9BeUiJLkY_J-NvGscBVA\?e\=2b0MdI\&download\=1 -O pascal.zip
 unzip pascal.zip
 ```
 
-### 2.2 Cityscapes Dataset
+#### 2.2 Cityscapes Dataset
 Download the dataset with wget:
 ```shell
 wget https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_hk/EWoa_9YSu6RHlDpRw_eZiPUBjcY0ZU6ZpRCEG0Xp03WFxg\?e\=LtHLyB\&download\=1 -O cityscapes.zip
 unzip cityscapes.zip
 ```
 
-### 2.3 COCO Dataset
+#### 2.3 COCO Dataset
 Download the dataset with wget:
 ```shell
 wget https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_hk/EXCErskA_WFLgGTqOMgHcAABiwH_ncy7IBg7jMYn963BpA\?e\=SQTCWg\&download\=1 -O coco.zip
@@ -118,7 +119,7 @@ wget https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_h
 ```
 
 
-## 3. Training & Evaluating
+### 3. Training & Evaluating
 
 ```bash
 # use torch.distributed.launch
@@ -134,11 +135,11 @@ To train on other datasets or splits, please modify
 ``dataset`` and ``split`` in [train.sh](https://github.com/xmed-lab/AllSpark/blob/main/scripts/train.sh).
 
 
-## 4. Results
+### 4. Results
 
 Model weights and training logs will be released soon.
 
-### 4.1 PASCAL VOC 2012 _original_
+#### 4.1 PASCAL VOC 2012 _original_
 <p align="left">
 <img src="./docs/pascal_org.png" width=60% class="center">
 </p>
@@ -149,7 +150,7 @@ Model weights and training logs will be released soon.
 | Weights of _**AllSpark**_ | 76.07 | [78.41](https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_hk/ESsfJbP0ipxAmhzzdESOIdgBKv3OLceKhpJscDaxTo9Grg?e=UDxRmb\&download\=1) | 79.77 | 80.75 | 82.12 |
 
 
-### 4.2 PASCAL VOC 2012 _augmented_
+#### 4.2 PASCAL VOC 2012 _augmented_
 
 <p align="left">
 <img src="./docs/pascal_aug.png" width=60% class="center">
@@ -162,7 +163,7 @@ Model weights and training logs will be released soon.
 
 
 
-### 4.3 Cityscapes
+#### 4.3 Cityscapes
 
 <p align="left">
 <img src="./docs/cityscapes.png" width=60% class="center">
@@ -175,7 +176,7 @@ Model weights and training logs will be released soon.
 
 
 
-### 4.4 COCO
+#### 4.4 COCO
 
 <p align="left">
 <img src="./docs/coco.png" width=60% class="center">
