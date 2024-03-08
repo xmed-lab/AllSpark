@@ -27,14 +27,13 @@ The _**AllSpark**_ is a powerful Cybertronian artifact in the film series of _Tr
 ## 💥 Motivation
 In this work, we discovered that simply converting existing semi-segmentation methods into a pure-transformer framework is ineffective. 
 <p align="center">
-<img src="./docs/backbone.png" width=39% height=65% class="center">
+<img src="./docs/backbone.png" width=50% height=80% class="center">
+<img src="./docs/issue.jpg" width=25% height=65% class="center">
 </p>
 The first reason is that transformers inherently possess weaker inductive bias compared to CNNs, so transformers heavily rely on a large volume of training data to perform well. 
 
 The more critical issue lies in the existing semi-supervised segmentation frameworks. These frameworks separate the training flows for labeled and unlabeled data, which aggravates the overfitting issue of transformers on the limited labeled data.
-<p align="center">
-<img src="./docs/issue.png" width=39% height=65% class="center">
-</p>
+
 Thus, we propose to _intervene and diversify_ the labeled data flow with unlabeled data in the feature domain, leading to improvements in generalizability.
 
 
