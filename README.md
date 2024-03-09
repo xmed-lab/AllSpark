@@ -22,7 +22,7 @@ This repo is the official implementation of [_AllSpark_: Reborn Labeled Features
 
 The _**AllSpark**_ is a powerful Cybertronian artifact in the film series of _Transformers_. It was used to reborn Optimus Prime in _Transformers: Revenge of the Fallen_, which aligns well with our core idea.
 
-
+-------
 
 ## 💥 Motivation
 In this work, we discovered that simply converting existing semi-segmentation methods into a pure-transformer framework is ineffective. 
@@ -36,6 +36,7 @@ The more critical issue lies in the existing semi-supervised segmentation framew
 
 Thus, we propose to _intervene and diversify_ the labeled data flow with unlabeled data in the feature domain, leading to improvements in generalizability.
 
+-------
 
 ## 🛠️ Usage
 
