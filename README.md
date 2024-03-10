@@ -148,7 +148,7 @@ Model weights and training logs will be released soon.
 
 | Splits | 1/16 | 1/8  | 1/4 | 1/2 | Full |
 | :- | - | - | - | - | - |
-| Weights of _**AllSpark**_ | 76.07 | [78.41](https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_hk/ESsfJbP0ipxAmhzzdESOIdgBKv3OLceKhpJscDaxTo9Grg?e=UDxRmb\&download\=1) | 79.77 | 80.75 | 82.12 |
+| Weights of _**AllSpark**_ | [76.07](https://hkustconnect-my.sharepoint.com/:u:/g/personal/qzhangcq_connect_ust_hk/Ecuus1sLam5MogVIfOhGC10BpONIoG4an3CyyTHnpDpiaQ?e=E2Rlbd\&download\=1) | [78.41](https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_hk/ESsfJbP0ipxAmhzzdESOIdgBKv3OLceKhpJscDaxTo9Grg?e=UDxRmb\&download\=1) | [79.77](https://hkustconnect-my.sharepoint.com/:u:/g/personal/qzhangcq_connect_ust_hk/Ea528G0fZ_9Kqchv4hHBRk0BDPzrmiQox_cT345PyBpFwA?e=ZQNYID\&download\=1) | [80.75](https://hkustconnect-my.sharepoint.com/:u:/g/personal/qzhangcq_connect_ust_hk/EXcXqbft2ARKtsdrl3aPY-EBlh2bJtIdTJQOm2dSGSMNXw?e=aLeIyo\&download\=1) | [82.12](https://hkustconnect-my.sharepoint.com/:u:/g/personal/qzhangcq_connect_ust_hk/ET3L91UzDV5AqOKYRxbL7HIBWNiYYhQzzemYw5PIwa8oQw?e=cNiIEm\&download\=1) |
 
 
 #### 4.2 PASCAL VOC 2012 _augmented_
