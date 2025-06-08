@@ -45,8 +45,6 @@ Thus, we propose to _intervene and diversify_ the labeled data flow with unlabel
 
 ## 🛠️ Usage
 
-**‼️ IMPORTANT: This version is not the final version. We made some mistakes when re-organizing the code. We will release the correct version soon. Sorry for any inconvenience this may cause.**
-
 ### 1. Environment
 
 First, clone this repo:
